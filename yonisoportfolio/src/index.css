@@ -1,0 +1,83 @@
+/*CSS RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/*HEADER*/
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  background-color: hsl(0, 0%, 0%, 0.5);
+}
+
+.nav-logo{
+  position: relative;
+  font-size: 30px;
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+  padding: 1em;
+  font-size: 12px;
+}
+
+nav li{
+  transition: ease-out 0.25s;
+  padding: 2em;
+}
+
+nav li:hover{
+  color: white;
+}
+
+header{
+  position:static;
+  background-image: url();
+  background-size: cover;
+  background-position: top center;
+}
